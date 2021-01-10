@@ -1,11 +1,13 @@
 [Desktop Entry]
-Name=CPU mode
-GenericName=Cpu mode
+Name=CPU Governer
+GenericName=CPU MODE
 Comment=Sets cpu mode to performance by default
 Exec=sudo bash -c 'for i in {0..3};do cpufreq-set -c $i -g performance;done'
-Icon=cpu
+Icon=cpu-governer
 Terminal=true
 Type=Application
+Keywords=cpu;governer;
+Categories=Utility;Tweaks;System;
 StartupWMClass=CPUMODE
 Actions=perf;ondemand;powersave;
 
