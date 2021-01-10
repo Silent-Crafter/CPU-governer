@@ -19,6 +19,6 @@ The simplest way to know how many cpus you have is to open your system monitor a
 Afterwards just run:
 ```
 sudo chmod +x install.sh
-./install.sh
+sudo ./install.sh
 ```
 And you are done!
