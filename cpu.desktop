@@ -1,0 +1,22 @@
+[Desktop Entry]
+Name=CPU mode
+GenericName=Cpu mode
+Comment=Sets cpu mode to performance by default
+Exec=sudo bash -c 'for i in {0..3};do cpufreq-set -c $i -g performance;done'
+Icon=cpu
+Terminal=true
+Type=Application
+StartupWMClass=CPUMODE
+Actions=perf;ondemand;powersave;
+
+[Desktop Action perf]
+Name=Performance
+Exec=sudo bash -c 'for i in {0..3};do cpufreq-set -c $i -g performance;done'
+
+[Desktop Action ondemand]
+Name=On-Demand
+Exec=sudo bash -c 'for i in {0..3};do cpufreq-set -c $i -g ondemand;done'
+
+[Desktop Action powersave]
+Name=Powersave
+Exec=sudo bash -c 'for i in {0..3};do cpufreq-set -c $i -g powersave;done'
