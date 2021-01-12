@@ -24,3 +24,9 @@ sudo ./install.sh
 And you are done!
 
 Open your application menu and look for CPU governer. When you run it, it will set the cpu-mode to performance by default. if you right-click on the icon, you can select between the 3 options
+
+##Uninstallation
+```
+sudo chmod +x uninstall.sh
+sudo ./uninstall.sh
+```
