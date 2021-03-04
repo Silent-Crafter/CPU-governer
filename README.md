@@ -6,7 +6,7 @@ This will change the governer of your cpu to performance by default. If you righ
 * On-demand (Normal)
 * Powersave
 
-This app/script is tested only on GNOME/DEBIAN based distros.
+This app/script is tested only on UBUNTU/DEBIAN based distros.
 
 ## Setup
 To run this program type the following in you terminal:
